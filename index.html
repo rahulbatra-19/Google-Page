@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .links a {
+        color: black;
+        position: relative;
+        top: 0;
+        right: 0;
+        float: right;
+        margin: 10px;
+      }
+
+      .main_image {
+        margin: auto;
+        width: 40%;
+      }
+
+      input[type="text"] {
+        width: 600px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 0.25px solid rgb(179, 179, 179);
+        background: rgba(155, 155, 155, 0.096) url(images.png) no-repeat left
+          top;
+        background-size: contain;
+        text-align: left;
+      }
+
+      input[type="text"]:hover {
+        background-image: none;
+      }
+
+      footer {
+        background-color: lightgray;
+        color: rgb(155, 155, 155);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+
+      img {
+        margin-top: 33%;
+        width: 400px;
+        height: 100px;
+      }
+
+      ul {
+        list-style-type: none;
+        position: relative;
+        bottom: 15px;
+
+        text-align: left;
+      }
+
+      .left li {
+        float: left;
+        margin: 10px;
+      }
+
+      .right li {
+        float: right;
+        margin: 10px;
+      }
+
+      li > a {
+        color: rgb(155, 155, 155);
+      }
+
+      .searchbutton {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        background-color: rgba(155, 155, 155, 0.096);
+        border-radius: 5px;
+        border: 0.25 solid;
+      }
+
+      .searchbutton:hover {
+        border: 1px solid;
+      }
+
+      #button1 {
+        padding: 10px;
+      }
+
+      .f1 {
+        text-align: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="links">
+        <a href="images.html">Images</a>
+        <a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl#inbox">Gmail</a>
+      </div>
+    </header>
+    <br />
+    <br />
+
+    <div class="main_image">
+      <img src="new.png" alt="google" >
+      </div>
+    <br><br><br>
+    <form>
+      <div>
+        <input type="text" name="q" id="inputbox" >
+      </div>
+      <div id="button1">
+        <button  type="submit"  class="searchbutton"  formaction="https://google.com/search"
+        >
+          Google Search
+        </button>
+      </div>
+    </form>
+
+    <footer>
+      <div class="f1">
+        <hr />
+        &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; India
+        <hr />
+      </div>
+      <ul class="left">
+        <li>
+          <a
+            href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+            target="_blank"
+            >Advertising</a
+          >
+        </li>
+        <li>
+          <a href="https://www.google.com/intl/en_in/business/" target="_blank"
+            >Business</a
+          >
+        </li>
+        <li>
+          <a href="https://www.google.com/search/howsearchworks/?fg=1">About</a>
+        </li>
+        <li>
+          <a href="https://www.google.com/search/howsearchworks/?fg=1"
+            >How search works</a
+          >
+        </li>
+      </ul>
+
+      <ul class="right">
+        <li>
+          <a href="https://policies.google.com/privacy?hl=en-IN&fg=1"
+            >Privacy</a
+          >
+        </li>
+        <li>
+          <a href="https://policies.google.com/terms?hl=en-IN&fg=1">Terms</a>
+        </li>
+        <li>
+          <a
+            href="https://www.google.co.in/preferences?hl=en-IN&client=safari&fg=1"
+            >Settings</a
+          >
+        </li>
+      </ul>
+      <br />
+    </footer>
+  </body>
+</html>

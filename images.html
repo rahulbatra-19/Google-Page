@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Images</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            text-align: center;
+        }
+        body{
+            margin-top: 20%;
+        }
+        #input{width: 500px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 0.25px solid ;
+        margin: 30px;
+        text-align: left}
+        #input:hover{
+            border:1px solid;
+        }
+        #imagesearch{
+            width: 150px;
+            border: 0.25 solid ;
+            background-color: rgba(216, 211, 211, 0.719);
+            padding:10px;
+        }
+        #imagesearch:hover{
+            border:1px solid;
+            background-color: rgba(223, 221, 221, 0.568);
+        }
+        a {
+             text-decoration: none;
+             color: rgb(155, 155, 155);
+        }
+        footer {
+        background-color: lightgray;
+        color: rgb(155, 155, 155);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: left;
+      }
+        ul{
+            list-style-type: none;
+            position: relative;
+        }
+        .left li{
+            float: left;
+            margin-right: 15px;}
+        .right li{
+            float: right;
+            margin-left: 15px;
+        }
+       .f1{
+           text-align: left;
+       }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="googleimages.png" alt="googleimages" width="400" height="100">
+    </div>
+    <br>
+    <form action="https://google.com/search">
+        <div>
+            <input name="tbm" value="isch" type="hidden">
+        <input type="text" name="q" id="input">
+    </div>
+    <div>
+        <input type="submit" id="imagesearch" value="Image Search" >
+    </div>
+    </form>
+    <footer>
+        <div class="f1">
+          <hr />
+          &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  &nbsp; India
+          <hr />
+        </div>
+        <ul class="left">
+          <li>
+            <a
+              href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+              target="_blank"
+              >Advertising</a
+            >
+          </li>
+          <li>
+            <a href="https://www.google.com/intl/en_in/business/" target="_blank"
+              >Business</a
+            >
+          </li>
+          <li>
+            <a href="https://www.google.com/search/howsearchworks/?fg=1">About</a>
+          </li>
+          <li>
+            <a href="https://www.google.com/search/howsearchworks/?fg=1"
+              >How search works</a
+            >
+          </li>
+        </ul>
+  
+        <ul class="right">
+          <li>
+            <a href="https://policies.google.com/privacy?hl=en-IN&fg=1"
+              >Privacy</a
+            >
+          </li>
+          <li>
+            <a href="https://policies.google.com/terms?hl=en-IN&fg=1">Terms</a>
+          </li>
+          <li>
+            <a
+              href="https://www.google.co.in/preferences?hl=en-IN&client=safari&fg=1"
+              >Settings</a
+            >
+          </li>
+        </ul>
+        <br />
+      </footer>
+</body>
+</html>
